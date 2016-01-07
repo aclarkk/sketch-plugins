@@ -3,13 +3,13 @@ Use git instead of dropbox because downloading & extracting .zip files is dumb.
 
 Set up is simple:
 ```
-  # go to plugin folder
+  # go to Sketch.app's application support folder
   cd ~/Library/Application\ Support/com.bohemiancoding.sketch3/
 
-  # move plugin folder to an easier to access spiot
+  # move the Plugins folder to an easier to access spiot
   mv Plugins/ ~/path/to/new-folder
 
-  # create a symlink so sketch can find the new folder
+  # create a symlink so Sketch.app can find the new folder
   ln -s ~/path/to/new-folder Plugins
 
 ```
