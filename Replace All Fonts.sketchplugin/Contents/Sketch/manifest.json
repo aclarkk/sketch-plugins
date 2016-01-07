@@ -1,0 +1,23 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Replace All Fonts",
+      "identifier" : "replace all fonts"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "replace all fonts"
+    ],
+    "title" : "Replace All Fonts"
+  },
+  "identifier" : "com.example.sketch.377392de-07f5-4238-b965-35361237e4ee",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "Replace All Fonts"
+}
