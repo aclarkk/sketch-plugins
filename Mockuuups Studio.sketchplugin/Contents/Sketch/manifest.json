@@ -1,0 +1,24 @@
+{
+  "name": "Mockuuups Studio",
+  "description": "Easily create beautiful mockups from your artboards",
+  "author": "Mockuuups",
+  "homepage": "https://mockuuups.studio/",
+  "version": "1.0.1",
+  "identifier": "com.mockuuups.studio.sketch",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Mockuuups Studio",
+      "identifier": "send-to-mockuuups-studio",
+      "script": "send.js",
+      "shortcut": "cmd shift m"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "send-to-mockuuups-studio"
+    ]
+  }
+}

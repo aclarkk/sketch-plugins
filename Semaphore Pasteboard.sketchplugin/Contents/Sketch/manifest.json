@@ -1,0 +1,25 @@
+{
+  "name": "Semaphore Pasteboard",
+  "description" : "",
+  "author" : "Facebook, Inc.",
+  "authorEmail" : "",
+  "homepage": "",
+  "version" : "0.0.2",
+  "identifier" : "com.facebook.semaphorePasteboard",
+  "compatibleVersion": "39",
+  "bundleVersion": "1",
+  "commands" : [
+    {
+      "script" : "SemaphorePasteboard/SemaphorePasteboard.js",
+      "handlers" : {
+        "actions" : {
+          "OpenDocument" : "onDocumentOpen"
+        }
+      }
+    }
+  ],
+  "menu" : {
+    "isRoot" : true,
+    "items" : []
+  }
+}
