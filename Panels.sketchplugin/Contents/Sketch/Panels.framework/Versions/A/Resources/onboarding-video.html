@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Onboarding video test</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .video {
+      width: 800px;
+      height: 600px;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <iframe class="video" width="800" height="600" autoPlay="1" allowFullScreen></iframe>
+
+  <script>
+    document.querySelector('.video').src = panel.onboardingVideoUrl();
+  </script>
+</body>
+</html>
