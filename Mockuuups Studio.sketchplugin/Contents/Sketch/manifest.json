@@ -3,16 +3,17 @@
   "description": "Easily create beautiful mockups from your artboards",
   "author": "Mockuuups",
   "homepage": "https://mockuuups.studio/",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "identifier": "com.mockuuups.studio.sketch",
-  "compatibleVersion": 3,
+  "compatibleVersion": 3.8,
   "bundleVersion": 1,
   "commands": [
     {
       "name": "Mockuuups Studio",
       "identifier": "send-to-mockuuups-studio",
       "script": "send.js",
-      "shortcut": "cmd shift m"
+      "shortcut": "cmd shift m",
+      "handler": "connectMirror"
     }
   ],
   "menu": {
