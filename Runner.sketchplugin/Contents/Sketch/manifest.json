@@ -1,0 +1,90 @@
+{
+  "author" : "Roy, Nikolas, Sergi, Florian, Moriah, Aby",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "cmd '",
+      "name" : "Run...",
+      "identifier" : "run"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "cmd shift '",
+      "name" : "Run Last Action",
+      "identifier" : "runLast"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Go To",
+      "identifier" : "goto"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Insert",
+      "identifier" : "insert"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Create",
+      "identifier" : "create"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Apply",
+      "identifier" : "apply"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Install",
+      "identifier" : "install"
+    },
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Check For Plugin Updates...",
+      "identifier" : "updateAll",
+      "description" : "Instantly update all your plugins.",
+      "icon" : "icons/icon-runnerLogo.png"
+    },
+    {
+    "script": "script.js",
+    "handlers": {
+      "actions": {
+        "Startup" : "onStart"
+      }
+    }
+  }
+  ],
+  "menu": {
+    "title" : "🏃🏿 Runner",
+    "items": [
+      "run",
+      "runLast",
+      "-",
+      "goto",
+      "insert",
+      "create",
+      "apply",
+      "install"
+    ]
+  },
+  "identifier" : "com.sketchrunner.Runner",
+  "version" : "0.9",
+  "description" : "Speed up your Sketch workflow",
+  "authorEmail" : "hello@sketchrunner.com",
+  "name" : "🏃🏿 Runner",
+  "disableCocoaScriptPreprocessor" : true
+}
