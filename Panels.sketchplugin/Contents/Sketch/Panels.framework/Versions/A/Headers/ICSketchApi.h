@@ -13,6 +13,7 @@
 
 - (id)initWithBundle:(NSBundle *)bundle panelsManager:(ICPanelsManager *)panelsManager;
 - (NSString *)getDocumentId;
+- (NSArray *)selectedLayers:(id)document;
 
 // process images
 - (void)processImages:(NSArray *)images selection:(NSArray *)selection identifier:(NSString *)identifier layerBlock:(void (^)(id layer, NSImage *image))layerBlock;

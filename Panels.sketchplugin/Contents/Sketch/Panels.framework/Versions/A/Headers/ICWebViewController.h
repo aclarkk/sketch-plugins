@@ -22,6 +22,8 @@
 - (id)globalSettingsValueForKey:(NSString *)key;
 - (void)resizePanel:(CGSize)newSize;
 - (void)togglePanel:(NSString *)identifier;
+- (void)openPanel:(NSString *)identifier;
+- (void)closePanel:(NSString *)identifier;
 - (void)showFullscreen;
 - (void)hideFullscreen;
 - (void)showOnboarding:(ICPanel *)panel;
